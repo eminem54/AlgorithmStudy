@@ -8,8 +8,8 @@ int main() {
 	cin >> a;
 
 	for (int i = 0; i < a.size(); i++) {
-		if (a.at(i) >= 'X') {
-			cout << (char)(a.at(i) - 26 + 3);
+		if (a.at(i) <= 'C') {
+			cout << (char)(a.at(i) + 26 - 3);
 		}
 		else {
 			cout << (char)(a.at(i) - 3);
