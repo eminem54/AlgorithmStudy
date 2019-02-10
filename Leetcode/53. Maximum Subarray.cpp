@@ -1,7 +1,6 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
-
 using namespace std;
 
 class Solution {
@@ -24,5 +23,6 @@ int main(){
     Solution sol = Solution();
     vector<int> a = {-2,1,-3,4,-1,2,1,-5,4};
     cout<< sol.maxSubArray(a);
+
     return 0;
 }
